@@ -9,4 +9,6 @@ test/
 scripts/
 README.md
 charts-output/
+node_modules/
+
 
