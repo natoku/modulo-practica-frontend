@@ -10,8 +10,7 @@ env:
 
 phases:
   install:
-    runtime-versions:
-      commands:
+    commands:
       - apt install curl
       - curl -sL https://deb.nodesource.com/setup_14.x | bash -
       - apt-get install -y nodejs
