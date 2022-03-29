@@ -1,4 +1,4 @@
-FROM node:erbium-alpine
+FROM public.ecr.aws/j6x2a6d1/pipe:latest
 
 RUN apk add --update \
         tzdata \
