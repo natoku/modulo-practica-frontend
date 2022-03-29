@@ -29,3 +29,5 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - echo Actualizacion de Fargate
+      - aws ecs update-service --cluster $CLUSTER --service $SERVICE --force-new-deployment
